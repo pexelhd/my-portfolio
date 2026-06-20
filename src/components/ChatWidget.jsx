@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { MessageCircle, X, Send } from 'lucide-react'
 
-const API_URL = 'http://localhost:5000/api/ai/chat'
+const API_URL = 'https://my-portfolio-qd9a.onrender.com/api/ai/chat'
 
 function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false)
