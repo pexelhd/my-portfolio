@@ -25,7 +25,7 @@ function About() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-white">About Me</h2>
           <p className="text-gray-600 dark:text-gray-300 text-lg max-w-2xl mx-auto">
-            I'm a Computer Engineering student passionate about building full-stack web applications
+            I'm a Computer Engineering graduate passionate about building full-stack web applications
           </p>
         </div>
 
@@ -38,7 +38,7 @@ function About() {
 
           <div className="space-y-6">
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              I'm currently studying Computer Engineering, with a focus on full-stack web
+              I recently graduated with a degree in Computer Engineering, with a focus on full-stack web
               development using React, Node.js, and PostgreSQL. My interest in tech started
               with curiosity about how things work, and has grown into a passion for building
               real, working applications.
