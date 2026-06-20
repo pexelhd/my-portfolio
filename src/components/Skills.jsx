@@ -1,3 +1,13 @@
+import {
+  FaHtml5,
+  FaJs,
+  FaReact,
+  FaNodeJs,
+  FaGitAlt,
+  FaDocker,
+} from 'react-icons/fa'
+import { SiExpress, SiPostgresql, SiTailwindcss, SiKeycloak } from 'react-icons/si'
+
 const skillCategories = [
   {
     category: 'Frontend',
@@ -29,8 +39,16 @@ const skillCategories = [
 ]
 
 const technologies = [
-  'JavaScript', 'React', 'Node.js', 'Express', 'PostgreSQL',
-  'Tailwind CSS', 'Keycloak', 'Docker', 'Git', 'REST API',
+  { name: 'HTML5', icon: FaHtml5, color: 'text-orange-600' },
+  { name: 'JavaScript', icon: FaJs, color: 'text-yellow-500' },
+  { name: 'React', icon: FaReact, color: 'text-sky-500' },
+  { name: 'Node.js', icon: FaNodeJs, color: 'text-green-600' },
+  { name: 'Express', icon: SiExpress, color: 'text-gray-700 dark:text-gray-300' },
+  { name: 'PostgreSQL', icon: SiPostgresql, color: 'text-blue-700' },
+  { name: 'Tailwind CSS', icon: SiTailwindcss, color: 'text-cyan-500' },
+  { name: 'Keycloak', icon: SiKeycloak, color: 'text-red-500' },
+  { name: 'Git', icon: FaGitAlt, color: 'text-orange-500' },
+  { name: 'Docker', icon: FaDocker, color: 'text-blue-500' },
 ]
 
 function SkillBar({ name, level }) {
@@ -76,14 +94,15 @@ function Skills() {
         </div>
 
         <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl p-8">
-          <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-6 text-center">
+          <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-8 text-center">
             Technologies I Use
           </h3>
-          <div className="flex flex-wrap justify-center gap-3">
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-6">
             {technologies.map((tech, index) => (
-              <span key={index} className="text-sm px-4 py-2 rounded-full border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-200">
-                {tech}
-              </span>
+              <div key={index} className="flex flex-col items-center gap-2 text-center">
+                <tech.icon className={`w-10 h-10 ${tech.color}`} />
+                <span className="text-sm text-gray-700 dark:text-gray-300">{tech.name}</span>
+              </div>
             ))}
           </div>
         </div>
