@@ -38,7 +38,7 @@ function About() {
 
           <div className="space-y-6">
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              I recently graduated with a degree in Computer Engineering and am now growing my skills in full-stack web
+              I'm an aspiring developer with a Computer Engineering background, growing my skills in full-stack web
               development using React, Node.js, and PostgreSQL. My interest in tech started
               with curiosity about how things work, and has grown into a passion for building
               real, working applications.
