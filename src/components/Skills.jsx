@@ -13,6 +13,9 @@ const skillCategories = [
     category: 'Frontend',
     skills: [
       { name: 'React', level: 80 },
+      { name: 'TypeScript', level: 82 },
+      { name: 'Expo', level: 75 },
+      { name: 'NativeWind', level: 75 },
       { name: 'JavaScript', level: 80 },
       { name: 'Tailwind CSS', level: 85 },
       { name: 'HTML/CSS', level: 90 },
@@ -26,6 +29,8 @@ const skillCategories = [
       { name: 'PostgreSQL', level: 70 },
       { name: 'Keycloak', level: 65 },
       { name: 'Prisma', level: 75 },
+      { name: 'JWT', level: 75 },
+      { name: 'Zod', level: 70 },
     ],
   },
   {
