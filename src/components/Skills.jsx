@@ -6,7 +6,7 @@ import {
   FaGitAlt,
   FaDocker,
 } from 'react-icons/fa'
-import { SiExpress, SiPostgresql, SiTailwindcss, SiKeycloak } from 'react-icons/si'
+import { SiExpress, SiPostgresql, SiTailwindcss, SiKeycloak, SiTypescript, SiExpo, SiPrisma, SiJsonwebtokens, SiZod } from 'react-icons/si'
 
 const skillCategories = [
   {
@@ -25,6 +25,7 @@ const skillCategories = [
       { name: 'Express', level: 75 },
       { name: 'PostgreSQL', level: 70 },
       { name: 'Keycloak', level: 65 },
+      { name: 'Prisma', level: 75 },
     ],
   },
   {
@@ -41,11 +42,16 @@ const skillCategories = [
 const technologies = [
   { name: 'HTML5', icon: FaHtml5, color: 'text-orange-600' },
   { name: 'JavaScript', icon: FaJs, color: 'text-yellow-500' },
+  { name: 'TypeScript', icon: SiTypescript, color: 'text-blue-600' },
   { name: 'React', icon: FaReact, color: 'text-sky-500' },
   { name: 'Node.js', icon: FaNodeJs, color: 'text-green-600' },
   { name: 'Express', icon: SiExpress, color: 'text-gray-700 dark:text-gray-300' },
   { name: 'PostgreSQL', icon: SiPostgresql, color: 'text-blue-700' },
+  { name: 'Prisma', icon: SiPrisma, color: 'text-gray-900 dark:text-gray-100' },
+  { name: 'JWT', icon: SiJsonwebtokens, color: 'text-pink-600' },
+  { name: 'Zod', icon: SiZod, color: 'text-blue-500' },
   { name: 'Tailwind CSS', icon: SiTailwindcss, color: 'text-cyan-500' },
+  { name: 'Expo', icon: SiExpo, color: 'text-gray-900 dark:text-gray-100' },
   { name: 'Keycloak', icon: SiKeycloak, color: 'text-red-500' },
   { name: 'Git', icon: FaGitAlt, color: 'text-orange-500' },
   { name: 'Docker', icon: FaDocker, color: 'text-blue-500' },
