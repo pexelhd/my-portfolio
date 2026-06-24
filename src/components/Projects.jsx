@@ -6,10 +6,10 @@ const projects = [
   {
     title: 'Multi-Tenant Task Manager',
     description:
-      'A full-stack multi-tenant task management system with role-based access control, Keycloak SSO authentication, real-time task tracking, and an AI-powered chat assistant built with Groq + Llama 3.3 70B.',
-    tags: ['React', 'Express', 'PostgreSQL', 'Keycloak', 'Groq AI', 'Docker'],
+      'A production-ready multi-tenant task management system with RBAC (Super Admin, Admin, Staff), Keycloak SSO, priority & overdue tracking, analytics dashboard with charts, task comments, and an AI chat assistant powered by Groq + Llama 3.3 70B.',
+    tags: ['React 19', 'Express', 'PostgreSQL', 'Keycloak', 'Groq AI', 'Render', 'Recharts'],
     image: '/taskmanager.png',
-    liveUrl: 'https://github.com/pexelhd',
+    liveUrl: 'https://task-manager-frontend-hxbt.onrender.com',
     githubUrl: 'https://github.com/pexelhd/multi-tenant-task-manager',
   },
   {
