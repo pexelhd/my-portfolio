@@ -22,12 +22,13 @@ const projects = [
     githubUrl: 'https://github.com/pexelhd/fitness-tracker',
   },
   {
-    title: 'Project Three',
-    description: 'Placeholder description — add details about this project soon.',
-    tags: ['React', 'Tailwind CSS'],
-    image: null,
-    liveUrl: 'https://github.com/pexelhd',
-    githubUrl: '#',
+    title: 'Medical Ticketing System',
+    description:
+      'A full-stack medical clinic management system with role-based access for Patients, Nurses, Doctors, and Admins — featuring real-time queue management, AI assistant (Groq + Llama 3.3), consultation records, appointment booking, and audit logs.',
+    tags: ['Flutter', 'Firebase', 'Groq AI', 'Firestore', 'Netlify'],
+    image: '/medical-ticketing.png',
+    liveUrl: 'https://medical-ticketing-app.netlify.app',
+    githubUrl: 'https://github.com/pexelhd/medical-ticketing',
   },
 ]
 
