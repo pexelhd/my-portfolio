@@ -25,7 +25,7 @@ function About() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-white">About Me</h2>
           <p className="text-gray-600 dark:text-gray-300 text-lg max-w-2xl mx-auto">
-            Computer Engineering student building full-stack web and mobile applications — from React dashboards to Flutter-based clinic systems
+            A little about who I am, what drives me, and how I approach building things
           </p>
         </div>
 
