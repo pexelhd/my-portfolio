@@ -16,7 +16,7 @@ function Hero() {
             Hi, I'm <span className="text-blue-600 dark:text-blue-400">Peter Justine Canico</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Full-stack developer building web and mobile apps with React, Flutter, Firebase, and AI integrations.
+            A developer who loves building things that work — clean code, real projects, and always learning.
           </p>
         </div>
 

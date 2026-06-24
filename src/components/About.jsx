@@ -38,16 +38,15 @@ function About() {
 
           <div className="space-y-6">
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              I'm a Computer Engineering student with hands-on experience shipping full-stack
-              and cross-platform applications. My work spans React-powered web systems,
-              Flutter mobile apps backed by Firebase, and AI-integrated tools using Groq —
-              each project built end-to-end with real users in mind.
+              I'm a Computer Engineering student who enjoys building things that actually work.
+              My interest in tech started with curiosity about how things are made, and grew
+              into a habit of shipping real projects from scratch — across web, mobile, and
+              everything in between.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              I'm drawn to solving genuine problems through code — whether that's designing
-              role-based access systems, wiring up real-time databases, or embedding
-              LLM-powered assistants into production apps. I'm always picking up new
-              technologies and pushing my craft beyond the basics.
+              I like solving problems, picking up new tools, and seeing ideas go from a rough
+              concept to something people can actually use. I'm always looking for ways to
+              improve and build things that make a difference.
             </p>
           </div>
         </div>
