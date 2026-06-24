@@ -25,7 +25,7 @@ function About() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-white">About Me</h2>
           <p className="text-gray-600 dark:text-gray-300 text-lg max-w-2xl mx-auto">
-            I'm an aspiring developer with a Computer Engineering background, passionate about building full-stack web applications
+            Computer Engineering student building full-stack web and mobile applications — from React dashboards to Flutter-based clinic systems
           </p>
         </div>
 
@@ -38,15 +38,16 @@ function About() {
 
           <div className="space-y-6">
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              I'm an aspiring developer with a Computer Engineering background, growing my skills in full-stack web
-              development using React, Node.js, and PostgreSQL. My interest in tech started
-              with curiosity about how things work, and has grown into a passion for building
-              real, working applications.
+              I'm a Computer Engineering student with hands-on experience shipping full-stack
+              and cross-platform applications. My work spans React-powered web systems,
+              Flutter mobile apps backed by Firebase, and AI-integrated tools using Groq —
+              each project built end-to-end with real users in mind.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              I enjoy solving problems through code and turning ideas into functional projects,
-              from full-stack systems with role-based access control to simple, clean interfaces.
-              I'm always looking to learn new tools and improve my craft.
+              I'm drawn to solving genuine problems through code — whether that's designing
+              role-based access systems, wiring up real-time databases, or embedding
+              LLM-powered assistants into production apps. I'm always picking up new
+              technologies and pushing my craft beyond the basics.
             </p>
           </div>
         </div>
