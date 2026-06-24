@@ -6,8 +6,8 @@ const projects = [
   {
     title: 'Multi-Tenant Task Manager',
     description:
-      'A full-stack task management system with role-based access control, Keycloak SSO, and an AI-powered chat assistant.',
-    tags: ['React', 'Express', 'PostgreSQL', 'Keycloak'],
+      'A full-stack multi-tenant task management system with role-based access control, Keycloak SSO authentication, real-time task tracking, and an AI-powered chat assistant built with Groq + Llama 3.3 70B.',
+    tags: ['React', 'Express', 'PostgreSQL', 'Keycloak', 'Groq AI', 'Docker'],
     image: '/taskmanager.png',
     liveUrl: 'https://github.com/pexelhd',
     githubUrl: 'https://github.com/pexelhd/multi-tenant-task-manager',
@@ -18,7 +18,7 @@ const projects = [
       'A full-stack fitness tracking mobile app with set-by-set workout logging, progress streaks, and unlockable achievements, backed by a real Express + PostgreSQL API with JWT auth.',
     tags: ['React Native', 'Expo', 'TypeScript', 'NativeWind', 'PostgreSQL'],
     image: '/fitness-tracker.jpg',
-    liveUrl: 'https://github.com/pexelhd',
+    liveUrl: 'https://tinyurl.com/ycxyyp2v',
     githubUrl: 'https://github.com/pexelhd/fitness-tracker',
   },
   {
