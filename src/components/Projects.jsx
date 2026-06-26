@@ -30,6 +30,15 @@ const projects = [
     liveUrl: 'https://medical-ticketing-app.netlify.app',
     githubUrl: 'https://github.com/pexelhd/medical-ticketing',
   },
+  {
+    title: 'ShopCo Ecommerce',
+    description:
+      'A full-stack ecommerce web app with customer authentication, product browsing and filtering, shopping cart, guest checkout, order management, and an admin panel — deployed live with Railway (backend + PostgreSQL) and Vercel (frontend).',
+    tags: ['React 19', 'Vite', 'Tailwind CSS', 'Node.js', 'Express', 'PostgreSQL', 'JWT', 'Railway', 'Vercel'],
+    image: '/shopco.png',
+    liveUrl: 'https://shopco-ecommerce-pi.vercel.app',
+    githubUrl: 'https://github.com/pexelhd/shopco-ecommerce',
+  },
 ]
 
 function ProjectCard({ project }) {

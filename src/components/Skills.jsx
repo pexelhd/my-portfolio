@@ -21,6 +21,10 @@ import {
   SiFirebase,
   SiDart,
   SiNetlify,
+  SiVite,
+  SiRailway,
+  SiVercel,
+  SiReactquery,
 } from 'react-icons/si'
 
 const skillCategories = [
@@ -54,6 +58,8 @@ const skillCategories = [
       { name: 'Groq AI', level: 75 },
       { name: 'Git / GitHub', level: 85 },
       { name: 'Netlify', level: 70 },
+      { name: 'Railway', level: 70 },
+      { name: 'Vercel', level: 75 },
       { name: 'Docker', level: 60 },
       { name: 'VS Code', level: 90 },
       { name: 'Figma', level: 60 },
@@ -80,6 +86,10 @@ const technologies = [
   { name: 'Groq AI', icon: FaBrain, color: 'text-purple-500' },
   { name: 'Git', icon: FaGitAlt, color: 'text-orange-500' },
   { name: 'Docker', icon: FaDocker, color: 'text-blue-500' },
+  { name: 'Vite', icon: SiVite, color: 'text-purple-500' },
+  { name: 'Railway', icon: SiRailway, color: 'text-gray-900 dark:text-gray-100' },
+  { name: 'Vercel', icon: SiVercel, color: 'text-gray-900 dark:text-gray-100' },
+  { name: 'React Query', icon: SiReactquery, color: 'text-red-500' },
 ]
 
 function SkillBar({ name, level }) {
